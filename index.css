@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(44, 42, 42);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    padding: 1.5rem;
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(194, 185, 185);
+    margin: 0 5rem;
+}
+
+nav a:hover,
+nav a:focus {
+    color: rgb(153, 116, 116);
+}
+
+.wrapper {
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about {
+    width: 16rem;
+    font-weight: 600;
+    line-height: 2rem;
+    color: rgb(180, 170, 170);
+}
+
+.span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(212, 124, 19);
+}
+
+.tags {
+    color: rgb(212, 124, 19);
+    text-decoration: none; 
+    padding: 0.5rem 1rem; 
+    border: 2px solid rgb(212, 124, 19); 
+    margin-top: 1rem; 
+    border-radius: 0.5rem;
+}
+
+.line {
+    background-color: rgb(212, 124, 19);
+    width: 3px;
+    height: 33px;
+    border-radius: 6px;
+    margin-left: 3rem;
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.6rem;
+    margin-top: 1.2rem;
+}
+
+.linkedin{
+    margin-top :0.3rem;;
+}
+
+
+.linkedin i,
+.github i,
+.whatsapp i,
+.twitter i {
+    color: rgb(194, 185, 185);
+}
