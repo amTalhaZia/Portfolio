@@ -1,6 +1,6 @@
 body {
     background-color: rgb(44, 42, 42);
-    color: white;
+    color: rgb(180, 170, 170);
     font-family: Arial, sans-serif;
 }
 
@@ -26,7 +26,8 @@ nav a:focus {
 .wrapper {
     padding: 4rem;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .about {
@@ -44,30 +45,34 @@ nav a:focus {
 
 .tags {
     color: rgb(212, 124, 19);
-    text-decoration: none; 
-    padding: 0.5rem 1rem; 
-    border: 2px solid rgb(212, 124, 19); 
-    margin-top: 1rem; 
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 2px solid rgb(212, 124, 19);
+    margin-top: 1rem;
     border-radius: 0.5rem;
 }
 
 .line {
     background-color: rgb(212, 124, 19);
     width: 3px;
-    height: 33px;
+    height: 90px;
     border-radius: 6px;
     margin-left: 3rem;
 }
 
-.socials{
+.tags:hover {
+    background-color: rgb(15, 15, 14);
+}
+
+.socials {
     display: flex;
     flex-direction: column;
     margin-left: 2.6rem;
     margin-top: 1.2rem;
 }
 
-.linkedin{
-    margin-top :0.3rem;;
+.linkedin {
+    margin-top: 0.3rem;
 }
 
 
@@ -76,4 +81,88 @@ nav a:focus {
 .whatsapp i,
 .twitter i {
     color: rgb(194, 185, 185);
+}
+
+.image {
+    width: 20%;
+    height: auto;
+}
+
+.About_Wrapper {
+    color: white;
+    margin-left: 11.5rem;
+    width: 76%;
+}
+
+
+.about_description {
+    display: flex;
+    color: rgb(180, 170, 170);
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+}
+
+.about_Line {
+    background-color: rgb(212, 124, 19);
+    height: 0.1rem;
+    border-radius: 0.9rem;
+    margin-top: 1.3rem;
+    margin-right: 0.7rem;
+    flex: 0.1 .9
+}
+
+.About_para {
+    flex: 2;
+    line-height: 2rem;
+    font-size: 1.4rem;
+}
+
+.color {
+    color: rgb(212, 124, 19);
+}
+
+.skill_heading {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card_Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(67 56 56);
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+
+.card_Container:hover{
+    background-color: rgb(180, 120, 42);
+}
+
+.log {
+    width: 55px;
+}
+
+
+.Card_Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.accounts{
+    
 }
