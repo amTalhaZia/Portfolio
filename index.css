@@ -2,6 +2,8 @@ body {
     background-color: rgb(44, 42, 42);
     color: rgb(180, 170, 170);
     font-family: Arial, sans-serif;
+    padding: 0%;
+    margin: 0%;
 }
 
 .header {
@@ -207,9 +209,7 @@ nav a:focus {
 
 /* Mobile  Querry */
 @media only screen and (min-width: 320px) and (max-width: 768px) {
-    .header {
-        margin-right: 4rem;
-    }
+
 
     .image {
         display: none;
@@ -217,15 +217,16 @@ nav a:focus {
 
     .wrapper {
         margin-left: 0.7rem;
+        padding: 0.2rem;
     }
 
     .about_heading {
-        margin-left: -7rem;
+        margin-left: -10rem;
         font-weight: bold;
     }
 
     .about_description {
-        margin-left: -7rem;
+        margin-left: -9rem;
         width: 19rem;
     }
 
@@ -238,20 +239,13 @@ nav a:focus {
     }
 
     .Card_Wrapper {
-        margin-right: -5rem;
+        margin-right: -1rem;
     }
 
-    .skill_heading {
-        margin-right: -5rem;
-    }
 
-    .projects {
-        margin-right: -5rem;
-    }
-
-    .Card_Wrapper_Projects {
-        margin-right: -5rem;
-        margin-bottom: 0rem;
+    .card_Container {
+        width: 121px;
+        height: 142px;
     }
 }
 
@@ -260,7 +254,7 @@ nav a:focus {
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 
-    .wrapper{
+    .wrapper {
         margin-left: -7.3rem;
     }
 
