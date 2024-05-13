@@ -146,7 +146,7 @@ nav a:focus {
     margin: 1rem;
 }
 
-.card_Container:hover{
+.card_Container:hover {
     background-color: rgb(180, 120, 42);
 }
 
@@ -160,9 +160,118 @@ nav a:focus {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 3rem;
 }
 
 
-.accounts{
-    
+/* project */
+
+.card_Container_Projcts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 221px;
+    height: 210px;
+    background-color: rgb(67 56 56);
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+
+.card_Container_Projcts:hover {
+    background-color: rgb(180, 120, 42);
+}
+
+.log_Projects {
+    width: 145px;
+    height: 83px;
+}
+
+
+.Card_Wrapper_Projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+
+.projects {
+    text-align: center;
+}
+
+.project_tags {
+    color: rgb(61, 105, 172);
+}
+
+
+/* Mobile  Querry */
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .header {
+        margin-right: 4rem;
+    }
+
+    .image {
+        display: none;
+    }
+
+    .wrapper {
+        margin-left: 0.7rem;
+    }
+
+    .about_heading {
+        margin-left: -7rem;
+        font-weight: bold;
+    }
+
+    .about_description {
+        margin-left: -7rem;
+        width: 19rem;
+    }
+
+
+    .linkedin i,
+    .github i,
+    .whatsapp i,
+    .twitter i {
+        margin-top: 0.5rem;
+    }
+
+    .Card_Wrapper {
+        margin-right: -5rem;
+    }
+
+    .skill_heading {
+        margin-right: -5rem;
+    }
+
+    .projects {
+        margin-right: -5rem;
+    }
+
+    .Card_Wrapper_Projects {
+        margin-right: -5rem;
+        margin-bottom: 0rem;
+    }
+}
+
+
+/* tablet  querry */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .wrapper{
+        margin-left: -7.3rem;
+    }
+
+    .about_heading {
+        margin-left: -8rem
+    }
+
+    .about_description {
+        margin-left: -8rem;
+        width: 33rem;
+    }
+
+
 }
