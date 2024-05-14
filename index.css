@@ -226,7 +226,7 @@ nav a:focus {
     }
 
     .about_description {
-        margin-left: -10rem;
+        margin-left: -1034rem;
         width: 19rem;
     }
 
@@ -255,17 +255,20 @@ nav a:focus {
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 
     .wrapper {
-        margin-left: -7.3rem;
+        margin-left: -1.3rem;
     }
 
     .about_heading {
-        margin-left: -8rem
+        margin-left: -2rem
     }
 
     .about_description {
-        margin-left: -8rem;
+        margin-left: -2rem;
         width: 33rem;
     }
 
 
+    .image {
+        display: none;
+    }
 }
