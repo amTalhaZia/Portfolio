@@ -221,13 +221,14 @@ nav a:focus {
     }
 
     .about_heading {
-        margin-left: -10rem;
+        margin-left: 1rem;
+        margin-top: 2rem;
         font-weight: bold;
     }
 
     .about_description {
-        margin-left: -10rem;
-        width: 100%;
+        margin-left: 1rem;
+        width: 120%;
     }
 
 
@@ -238,14 +239,17 @@ nav a:focus {
         margin-top: 0.5rem;
     }
 
-    .Card_Wrapper {
-        margin-right: -1rem;
+    .About_Wrapper {
+        margin-left: 0;
     }
-
 
     .card_Container {
         width: 121px;
         height: 142px;
+    }
+
+    .card_Container_Projcts{
+        margin-bottom: 3rem;
     }
 }
 
